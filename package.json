@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-express-books",
+  "version": "1.0.0",
+  "description": "A REST API built with Express demonstrating standard CRUD operations over a Books resource with JSON in/out and proper HTTP status codes.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "api",
+    "crud",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
